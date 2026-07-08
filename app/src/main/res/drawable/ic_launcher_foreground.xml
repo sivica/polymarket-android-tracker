@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Central Globe Shadow / Glow base -->
+    <path
+        android:fillColor="#1A80D0BC"
+        android:pathData="M 54,30 A 24,24 0 1,1 53.99,30 Z" />
+
+    <!-- Central Globe Outer Core -->
+    <path
+        android:fillColor="#40D0BCFF"
+        android:pathData="M 54,34 A 20,20 0 1,1 53.99,34 Z" />
+
+    <!-- Central Globe Inner Core -->
+    <path
+        android:fillColor="#D0BCFF"
+        android:pathData="M 54,37 A 17,17 0 1,1 53.99,37 Z" />
+        
+    <!-- Globe lines/grid (meridians and parallels) -->
+    <path
+        android:strokeColor="#22000000"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M 54,37 L 54,71 M 37,54 L 71,54" />
+        
+    <!-- Orbital Ring (angled across the globe) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 25,60 C 20,42 88,42 83,60 C 78,78 30,78 25,60 Z" />
+
+    <!-- Twinkle Stars -->
+    <!-- Star 1 (Top Right) -->
+    <path
+        android:fillColor="#FFD27F"
+        android:pathData="M 78,35 L 80,39 L 84,41 L 80,43 L 78,47 L 76,43 L 72,41 L 76,39 Z" />
+    <!-- Star 2 (Bottom Left) -->
+    <path
+        android:fillColor="#FFD27F"
+        android:pathData="M 30,67 L 31.5,70 L 34.5,71 L 31.5,72 L 30,75 L 28.5,72 L 25.5,71 L 28.5,70 Z" />
+    <!-- Small star (Top Left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 36,26 L 37,28 L 39,29 L 37,30 L 36,32 L 35,30 L 33,29 L 35,28 Z" />
+</vector>
